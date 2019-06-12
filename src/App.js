@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Home from '../src/routes/home'
+
 import NavBar from '../src/components/navbar'
 
 class App extends Component {

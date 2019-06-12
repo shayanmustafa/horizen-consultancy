@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap'
+import { Navbar, Nav} from 'react-bootstrap'
 import Home from '../routes/home'
 import About from '../routes/about'
 import Services from '../routes/services'

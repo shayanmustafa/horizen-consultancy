@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
-import { Button } from 'react-bootstrap';
+import NavBar from '../components/navbar'
+import '../styles/home.css'
 
 class Home extends Component {
     render() {
         return (
-            <div>
-            <h1>Home Route</h1>
-            <Button variant="primary">Primary</Button>
+            <div className="home-container">
+                <NavBar />
+                <h1 className="title">Home Route</h1>
             </div>
         )
     }

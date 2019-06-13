@@ -2,5 +2,9 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: DodgerBlue;
+    background-color: #18181E;
+}
+
+.title {
+    color: #DEC79B
 }

@@ -1,0 +1,10 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #18181E;
+}
+
+.title {
+    color: #DEC79B
+}

@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
 import NavBar from '../components/navbar'
+import '../styles/contact.css'
 
 class Contact extends Component {
     render() {
         return(
-            <div>
+            <div className="contact-container">
                 <NavBar />
-                <h1>Contact Route</h1>
+                <h1 className="title">Contact Route</h1>
             </div>
         )
     }

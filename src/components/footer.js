@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
+import '../styles/footer.css'
 
 class Footer extends Component {
     render() {
         return(
-            <footer>
+            <footer className="footer-container">
                 <small>
                     © Horizen Consultancy Limited
                 </small>
@@ -11,3 +12,5 @@ class Footer extends Component {
         )
     }
 }
+
+export default Footer

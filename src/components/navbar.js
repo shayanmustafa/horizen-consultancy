@@ -6,7 +6,7 @@ import logo from '../images/logo1.png'
 class NavBar extends Component {
     render() {
         return (
-                <Navbar variant="dark" expand="lg">
+                <Navbar variant="dark" expand="lg" className="navbar-container">
                     <Navbar.Brand href="#home" className="navbar-brand">
                         <img 
                         src={logo}

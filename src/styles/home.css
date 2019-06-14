@@ -24,6 +24,6 @@
     color: var(--main-text-color);
   }
 
-.title {
-    color: #DEC79B
+.text-wrapper {
+    margin-left: 20px;
 }

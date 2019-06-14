@@ -35,7 +35,7 @@ class Home extends Component {
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                         </SplitText></p>
                         </div>
-                        </div>
+                    </div>
                 </main>
                 <footer className="page-footer">
                     <Footer />

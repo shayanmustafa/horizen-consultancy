@@ -10,14 +10,28 @@ class About extends Component {
                 <header className="about-header">
                     <NavBar />
                 </header>
-                <main className="about-main">
+                <main className="about-main1">
                     <div className="section-1">
-                        <h1>About</h1>
-                        <h1>Horizen Consultancy</h1>
+                        <div className="about-info">
+                            <h1>About Us</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
                     </div>
                     <div className="section-2">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-</p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                </main>
+                <main className="about-main2">
+                    <div className="section-3">
+                        <h2>Our Team</h2>
+                    </div>
+                    <div className="section-4">
+                        <div className="section-4-1"></div>
+                        <div className="section-4-2"></div>
+                        <div className="section-4-3"></div>
                     </div>
                 </main>
                 <footer className="about-footer">

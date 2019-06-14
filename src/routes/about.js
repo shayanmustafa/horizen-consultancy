@@ -7,13 +7,20 @@ class About extends Component {
     render() {
         return (
             <div className="about-container">
-                <header className="page-header">
+                <header className="about-header">
                     <NavBar />
                 </header>
-                <main className="page-main">
-                    <h1 className="title">About Route</h1>
+                <main className="about-main">
+                    <div className="section-1">
+                        <h1>About</h1>
+                        <h1>Horizen Consultancy</h1>
+                    </div>
+                    <div className="section-2">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+</p>
+                    </div>
                 </main>
-                <footer className="page-footer">
+                <footer className="about-footer">
                     <Footer />
                 </footer>
             </div>

@@ -1,9 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
 .about-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
     background-color: #18181E;
+}
+
+.about-main {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 10px;
+    /*width: 600px;*/
+    flex: 1;
+    min-height: 70vh;
+    background-color: #DEC79B
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin-right: 20px;
+    margin-left: 10px;
+    line-height: 2.0;
+    color: #DEC79B;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .title {

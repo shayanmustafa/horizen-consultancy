@@ -7,9 +7,25 @@ class Home extends Component {
     render() {
         return (
             <div className="home-container">
-                <NavBar />
-                <h1 className="title">Home Route</h1>
-                <Footer />
+                <header className="page-header">
+                    <NavBar />
+                </header>
+                <main className="page-main">
+                <div>
+                    <div class="text-wrapper">
+                        <h1>Get your ERP solutions</h1>   
+                    </div>
+                    <div class="text-wrapper p-wrapper">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
+                    </div>
+                    <div class="text-wrapper p-wrapper">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    </div>
+                    </div>
+                </main>
+                <footer className="page-footer">
+                    <Footer />
+                </footer>
             </div>
         )
     }

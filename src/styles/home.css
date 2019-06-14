@@ -1,3 +1,8 @@
+:root {
+    --main-text-color: #DEC79B;
+    --main-black-color: black;
+  }
+
 .home-container {
     display: flex;
     flex-direction: column;
@@ -5,6 +10,19 @@
     min-height: 100vh;
     background-color: #18181E;
 }
+
+.page-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    min-height: 350px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(../images/dubai-background.jpg) no-repeat
+      center / cover;
+    /*background-blend-mode: lighten;*/
+    color: var(--main-text-color);
+  }
 
 .title {
     color: #DEC79B

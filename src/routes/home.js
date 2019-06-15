@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import NavBar from '../components/navbar'
 import Footer from '../components/footer'
 import '../styles/home.css'
-import posed from 'react-pose';
 import SplitText from 'react-pose-text';
 import Slide from 'react-reveal/Slide';
 

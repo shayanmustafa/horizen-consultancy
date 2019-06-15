@@ -100,3 +100,17 @@
 .title {
     color: #DEC79B
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .about-main1 {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between
+    }
+
+    .section-4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+  }

@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import NavBar from '../components/navbar'
 import Footer from '../components/footer'
-//import Fade from 'react-reveal/Fade';
-import ScrollAnimation from 'react-animate-on-scroll';
 import Slide from 'react-reveal/Slide';
 import '../styles/about.css'
 

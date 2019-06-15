@@ -5,11 +5,13 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "react": "^16.8.6",
+    "react-animate-on-scroll": "^2.1.5",
     "react-animated-text": "^0.1.4",
     "react-bootstrap": "^1.0.0-beta.9",
     "react-dom": "^16.8.6",
     "react-pose": "^4.0.8",
     "react-pose-text": "^3.1.0",
+    "react-reveal": "^1.2.2",
     "react-reveal-text": "^0.1.1",
     "react-router-dom": "^5.0.1",
     "react-scripts": "2.1.8"

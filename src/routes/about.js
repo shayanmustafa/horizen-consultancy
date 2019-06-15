@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 import NavBar from '../components/navbar'
 import Footer from '../components/footer'
+//import Fade from 'react-reveal/Fade';
+import ScrollAnimation from 'react-animate-on-scroll';
+import Slide from 'react-reveal/Slide';
 import '../styles/about.css'
 
 class About extends Component {
@@ -12,18 +15,23 @@ class About extends Component {
                 </header>
                 <main className="about-main1">
                     <div className="section-1">
-                        <div className="about-info">
-                            <h1>About Us</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                        </div>
+                        <Slide left>
+                            <div className="about-info">
+                                <h1>About Us</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                            </div>
+                        </Slide>
                     </div>
+                    <Slide right>
                     <div className="section-2">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
                     </div>
+                    </Slide>
                 </main>
+                <Slide up>
                 <main className="about-main2">
                     <div className="section-3">
                         <h2>Our Team</h2>
@@ -50,6 +58,7 @@ class About extends Component {
                         </div>
                     </div>
                 </main>
+                </Slide>
                 <footer className="about-footer">
                     <Footer />
                 </footer>

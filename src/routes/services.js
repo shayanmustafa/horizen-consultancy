@@ -12,7 +12,10 @@ class Services extends Component {
                 </header>
                 <main className="services-main">
                     <div className="s-section-1">
-                        <h1>Our Services</h1>
+                        <div className="services-info">
+                            <h1>Our Services</h1>
+                            <p>What do we provide?</p>
+                        </div>
                     </div>
                     <div className="s-section-2">
                        <h3>Comprehensive Services</h3>

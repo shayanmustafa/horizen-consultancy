@@ -21,6 +21,12 @@
     margin-bottom: 40px;
 }
 
+.services-info  {
+    padding: 10px;
+    border: 1px solid #DEC79B;
+    font-family: 'Quicksand', sans-serif;
+}
+
 .s-section-2 {
     margin-bottom: 40px;
 }

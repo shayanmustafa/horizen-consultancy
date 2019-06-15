@@ -1,8 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
 .services-container {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     min-height: 100vh;
     background-color: #18181E;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.services-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #DEC79B;
+    text-align: center;
+    height: 500px;
+}
+
+.s-section-1 {
+    margin-bottom: 20px;
+}
+
+.s-section-2 {
+    margin-bottom: 20px;
+}
+
+.s-section-2 p {
+    margin-right: 10px;
+    margin-left: 10px;
+    line-height: 2.0;
+    letter-spacing: 0.1em;
+}
+
+.s-section-3 {
+    margin-bottom: 20px;
 }
 
 .title {

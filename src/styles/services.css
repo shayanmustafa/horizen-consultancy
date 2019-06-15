@@ -86,6 +86,22 @@
     align-items: center;
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+    .s-section-3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .s-section-4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+  }
+
 .title {
     color: #DEC79B
 }

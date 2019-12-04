@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/horizen-consultancy/static/js/runtime~main.1297e15f.js"
   },
   {
-    "revision": "f342c1ffb96534814b56",
-    "url": "/horizen-consultancy/static/js/main.2ec89166.chunk.js"
+    "revision": "0c939c40baa68de0369a",
+    "url": "/horizen-consultancy/static/js/main.a10e590b.chunk.js"
   },
   {
     "revision": "29ac5ef892545def1cca",
     "url": "/horizen-consultancy/static/js/2.875bccd6.chunk.js"
   },
   {
-    "revision": "f342c1ffb96534814b56",
+    "revision": "0c939c40baa68de0369a",
     "url": "/horizen-consultancy/static/css/main.569b3dec.chunk.css"
   },
   {
-    "revision": "218f77f9617c6bb302cec87ceb467292",
+    "revision": "6cd6db16da15c7e3e9faa3524b3fb525",
     "url": "/horizen-consultancy/index.html"
   }
 ];

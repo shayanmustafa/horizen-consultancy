@@ -1,14 +1,14 @@
 {
-  "main.css": "./static/css/main.3d5e5707.chunk.css",
-  "main.js": "./static/js/main.22ee4b3d.chunk.js",
-  "main.js.map": "./static/js/main.22ee4b3d.chunk.js.map",
-  "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
-  "runtime~main.js.map": "./static/js/runtime~main.d653cc00.js.map",
-  "static/js/2.875bccd6.chunk.js": "./static/js/2.875bccd6.chunk.js",
-  "static/js/2.875bccd6.chunk.js.map": "./static/js/2.875bccd6.chunk.js.map",
-  "index.html": "./index.html",
-  "precache-manifest.40a02846c9f38f8672c4963e43c6acb9.js": "./precache-manifest.40a02846c9f38f8672c4963e43c6acb9.js",
-  "service-worker.js": "./service-worker.js",
-  "static/css/main.3d5e5707.chunk.css.map": "./static/css/main.3d5e5707.chunk.css.map",
-  "static/media/home.css": "./static/media/dubai-background.f8c064b7.jpg"
+  "main.css": "/horizen-consultancy/static/css/main.569b3dec.chunk.css",
+  "main.js": "/horizen-consultancy/static/js/main.8b3ce0d6.chunk.js",
+  "main.js.map": "/horizen-consultancy/static/js/main.8b3ce0d6.chunk.js.map",
+  "runtime~main.js": "/horizen-consultancy/static/js/runtime~main.1297e15f.js",
+  "runtime~main.js.map": "/horizen-consultancy/static/js/runtime~main.1297e15f.js.map",
+  "static/js/2.875bccd6.chunk.js": "/horizen-consultancy/static/js/2.875bccd6.chunk.js",
+  "static/js/2.875bccd6.chunk.js.map": "/horizen-consultancy/static/js/2.875bccd6.chunk.js.map",
+  "index.html": "/horizen-consultancy/index.html",
+  "precache-manifest.623b6a6f191cf9de4770c2d1fccef590.js": "/horizen-consultancy/precache-manifest.623b6a6f191cf9de4770c2d1fccef590.js",
+  "service-worker.js": "/horizen-consultancy/service-worker.js",
+  "static/css/main.569b3dec.chunk.css.map": "/horizen-consultancy/static/css/main.569b3dec.chunk.css.map",
+  "static/media/home.css": "/horizen-consultancy/static/media/dubai-background.f8c064b7.jpg"
 }

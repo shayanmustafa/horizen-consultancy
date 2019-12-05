@@ -22,10 +22,10 @@ class NavBar extends Component {
                                 <Nav.Link href="/horizen-consultancy">Home</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link href="/horizen-consultancy/about/">About</Nav.Link>
+                                <Nav.Link href="/about/">About</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link href="/services">Services</Nav.Link>
+                                <Nav.Link href="/services/">Services</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link href="contact">Contact</Nav.Link>

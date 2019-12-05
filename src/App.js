@@ -12,7 +12,7 @@ class App extends Component {
         <header className="App-header">
           <Router basename="horizen-consultancy">
                 <Route path="/" exact component={Home} />
-                <Route path="/horizen-consultancy/about/" component={About} />
+                <Route path="/about/" component={About} />
                 <Route path="/services/" component={Services} />
                 <Route path="/contact/" component={Contact} />
           </Router>

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/horizen-consultancy/precache-manifest.3a74cd9589a5d1d8f2006391e8494037.js"
+  "/horizen-consultancy/precache-manifest.4fc1f3fd3d90abba4308b137da55c314.js"
 );
 
 workbox.clientsClaim();

@@ -11,10 +11,10 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <Router basename="/horizen-consultancy">
-                <Route path="/" exact component={Home} />
-                <Route path="/about/" component={About} />
-                <Route path="/services/" component={Services} />
-                <Route path="/contact/" component={Contact} />
+                <Route path={`${process.env.PUBLIC_URL}/`} exact component={Home} />
+                <Route path={`${process.env.PUBLIC_URL}/about`} component={About} />
+                <Route path={`${process.env.PUBLIC_URL}/services`} component={Services} />
+                <Route path={`${process.env.PUBLIC_URL}/contact`} component={Contact} />
           </Router>
         </header>
       </div>

@@ -19,16 +19,16 @@ class NavBar extends Component {
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                         <Nav className="nav-class">
                             <Nav.Item>
-                                <Nav.Link href="/horizen-consultancy">Home</Nav.Link>
+                                <Nav.Link href={`${process.env.PUBLIC_URL}/`}>Home</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link href="/about/">About</Nav.Link>
+                                <Nav.Link href={`${process.env.PUBLIC_URL}/about`}>About</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link href="/services/">Services</Nav.Link>
+                                <Nav.Link href={`${process.env.PUBLIC_URL}/services`}>Services</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link href="contact">Contact</Nav.Link>
+                                <Nav.Link href={`${process.env.PUBLIC_URL}/contact`}>Contact</Nav.Link>
                             </Nav.Item>
                         </Nav>
                     </Navbar.Collapse>

@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <Router basename="horizen-consultancy">
+          <Router basename="/horizen-consultancy">
                 <Route path="/" exact component={Home} />
                 <Route path="/about/" component={About} />
                 <Route path="/services/" component={Services} />
